@@ -1,0 +1,21 @@
+package Util.Exception;
+
+/**
+ *
+ @authors
+ * Carlos wellington
+ */
+public class ConecaoException extends Exception {
+    private String erro;
+
+    public ConecaoException(String erro) {
+       super(erro);
+    }
+
+    @Override
+    public String toString() {
+        return erro;
+    }
+
+    
+}
