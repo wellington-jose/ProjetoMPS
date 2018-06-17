@@ -53,7 +53,7 @@ public class UserForm_Cadastrar extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
-        jLabel1.setText("Cadastrar Senha");
+        jLabel1.setText("Cadastrar Login e Senha");
 
         jLabelLogin.setText("Login");
 

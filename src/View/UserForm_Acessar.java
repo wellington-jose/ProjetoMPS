@@ -25,7 +25,7 @@ public class UserForm_Acessar extends javax.swing.JFrame {
         mod = new Modelos();
         senhaTextField.setText("");
         loginTextField.setText("");
-        jLabelAviso.setText("Se já é cadastrado, digite seu CPF e Senha");
+        jLabelAviso.setText("Digite seu CPF e Senha, se já for cadastrado");
     }
 
     @SuppressWarnings("unchecked")
