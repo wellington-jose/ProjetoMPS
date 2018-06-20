@@ -1,2 +1,2 @@
 # ProjetoMPS
-projeto para de disciplina de MPS
+projeto para disciplina de MPS
