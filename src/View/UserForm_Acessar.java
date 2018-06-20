@@ -25,7 +25,7 @@ public class UserForm_Acessar extends javax.swing.JFrame {
         mod = new Modelos();
         senhaTextField.setText("");
         loginTextField.setText("");
-        jLabelAviso.setText("Digite seu CPF e Senha, se já for cadastrado");
+        jLabelAviso.setText("Digite seu login e senha.");
     }
 
     @SuppressWarnings("unchecked")
@@ -50,7 +50,7 @@ public class UserForm_Acessar extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
-        jLabel1.setText("Início");
+        jLabel1.setText("GERÊNCIAMENTO DE COMÉRCIO");
 
         jLabel2.setText("Login");
 
@@ -77,9 +77,9 @@ public class UserForm_Acessar extends javax.swing.JFrame {
             }
         });
 
-        jLabelAviso.setText("Se já for usuário, digite seu login e senha.");
+        jLabelAviso.setText("                             Digite seu login e senha.");
 
-        jLabel4.setText("Se não for usuário, digite se CPF e cadastre-se.");
+        jLabel4.setText("Não é usuário? digite seu CPF e cadastre-se.");
 
         jLabel5.setText("CPF");
 
@@ -98,8 +98,8 @@ public class UserForm_Acessar extends javax.swing.JFrame {
                 .addGap(64, 64, 64)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addContainerGap())
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(92, 92, 92))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -168,6 +168,7 @@ public class UserForm_Acessar extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(38, 38, 38)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );

@@ -174,7 +174,7 @@ public class UserForm_Cadastrar extends javax.swing.JFrame {
                 UserForm_Acessar usa = new UserForm_Acessar();
                 usa.setVisible(true);
             } else {
-                JOptionPane.showMessageDialog(null, "Senha não confirma com a anteriro");
+                JOptionPane.showMessageDialog(null, "Senha não confirma com a anterior");
             }
 
             this.dispose();
