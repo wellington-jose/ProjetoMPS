@@ -2,8 +2,7 @@ package Util.Exception;
 
 /**
  *
- @authors
- * Carlos wellington
+ @author wellington
  */
 public class DadoInvalidoException extends Exception {
     private String erro;

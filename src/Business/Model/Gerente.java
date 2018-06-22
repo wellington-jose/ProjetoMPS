@@ -15,9 +15,9 @@ public class Gerente {
 
     }
 
-    public Gerente(String n, String c, String d, String e, String t, String em,
+    public Gerente(String c, String n, String d, String e, String t, String em,
             float s, String da, String st) {
-        pf = new PessoaFisica(n, c, d, e, t, em);
+        pf = new PessoaFisica(c, n, d, e, t, em);
         this.salario = s;
         this.dataAdmissão = da;
         this.setor = st;

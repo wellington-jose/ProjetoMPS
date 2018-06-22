@@ -2,8 +2,7 @@ package Util.Exception;
 
 /**
  *
- @authors
- * Carlos wellington
+ @author wellington
  */
 public class EstoqueInexistenteException extends Exception {
     private String erro;

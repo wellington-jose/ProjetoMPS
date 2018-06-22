@@ -6,8 +6,8 @@ package Business.Model;
  */
 public class PessoaFisica {
 
-    private String nome;
     private String cpf;
+    private String nome;
     private String dataNascimento;
     private String endereco;
     private String telefone;
@@ -18,9 +18,9 @@ public class PessoaFisica {
         this.cadastro = false;
     }
 
-    public PessoaFisica(String n, String c, String d, String e, String t, String em) {
-        this.nome = n;
+    public PessoaFisica(String c, String n, String d, String e, String t, String em) {
         this.cpf = c;
+        this.nome = n;
         this.dataNascimento = d;
         this.endereco = e;
         this.telefone = t;

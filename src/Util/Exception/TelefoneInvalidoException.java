@@ -2,8 +2,7 @@ package Util.Exception;
 
 /**
  *
- @authors
- * Carlos wellington
+ @author wellington
  */
 public class TelefoneInvalidoException extends Exception {
     private String erro;

@@ -6,8 +6,8 @@ package Business.Model;
  */
 public class PessoaJuridica {
 
-    private String nome;
     private String cnpj;
+    private String nome;
     private String responsavel;
     private String endereco;
     private String telefone;
@@ -17,10 +17,10 @@ public class PessoaJuridica {
 
     }
 
-    public PessoaJuridica(String n, String c, String d, String e, String t, String em) {
-        this.nome = n;
+    public PessoaJuridica(String c, String n, String r, String e, String t, String em) {
         this.cnpj = c;
-        this.responsavel = d;
+        this.nome = n;
+        this.responsavel = r;
         this.endereco = e;
         this.telefone = t;
         this.email = em;
@@ -80,4 +80,3 @@ public class PessoaJuridica {
                 + telefone + ", " + email;
     }
 }
-

@@ -2,7 +2,7 @@ package Util.Exception;
 
 /**
  *
- @authors wellington
+ @author wellington 
  */
 public class CNPJInvalidoException extends Exception {
     private String erro;
